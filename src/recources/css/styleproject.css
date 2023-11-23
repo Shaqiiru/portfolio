@@ -24,7 +24,7 @@ h1{
 }
 
 body {
-    background-image: url("../images/425_852.png");
+    background-image: url("../images/425_852sbg.png");
     background-repeat: no-repeat;
     background-position: content;
     background-color: #000;
@@ -122,72 +122,17 @@ body {
     display: visible;
 }
 
-a {
-    margin-right: 10px;
-    font-size: 24px;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #4f5f51;
-}
-
-form {
+p {
     position: relative;
     top: 20vh;
-    display: grid;
+    text-align: center;
+    font-size: 24px;
 }
 
-input {
-    width: 70vw;
-    height: 10vw;
-    margin: auto;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    appearance: none;
-    font-size: 32px;
-    border: #27542C;
-}
+@media only screen and (min-width: 600px) {
 
-textarea {
-    width: 70vw;
-    height: 20vh;
-    margin: auto;
-    margin-bottom: 15vh;
-    border-radius: 8px;
-    font-size: 32px;
-    border: #27542C;
-}
-
-.formb {
-    width: 100vw;
-    height: 25vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.formf {
-    width: 100vw;
-    height: 70vh;
-}
-
-button {
-    position: relative;
-    width: 50vw;
-    height: 15vh;
-    border-radius: 8px;
-    background: #27542C;
-    color: #AFEDB7;
-    font-size: 32px;
-    border: #27542C;
-}
-
-
-
-@media only screen and (min-width: 1024px) {
     body {
-        background-image: url("../images/1550_760.png");
+        background-image: url("../images/850_760sbg.png");
     }
 
     .nav1 {
@@ -200,40 +145,30 @@ button {
         display: none;
     }
 
-    .formcontainer {
-        display: flex;
-        height: 100vh;
+}
+
+@media only screen and (min-width: 1200px) {
+
+    body {
+        background-image: url("../images/1550_760sbg.png");
     }
 
-    .formb {
-        position: relative;
-        top: 35%;
-        width: 50vw;
-        height: 25vh;
+    p {
+        width: 70vw;
+        margin: auto;
+    }
+
+    .nav1 {
+        position: absolute;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        left: 75%;
+        top: 2%;
     }
     
-    .formf {
-        width: 50vw;
-        height: 100vh;
+    .hidehamburg {
+        display: none;
     }
 
-    input {
-        width: 40vw;
-        height: 10vh;
-        color: #000;
-    }
-
-    textarea {
-        width: 40vw;
-        height: 15vh;
-        color: #000;
-    }
-
-    button {
-        position: relative;
-        width: 30vw;
-    }
 }
+
+

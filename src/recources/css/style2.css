@@ -5,9 +5,10 @@
     overflow: hidden;
 }
 body {
-    background-image: url("../images/320_701.png");
+    background-image: url("../images/425_852.png");
     background-repeat: no-repeat;
     background-position: content;
+    background-color: #000;
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -260,10 +261,9 @@ a:hover {
 
     .nav1 {
         position: absolute;
-        display: block;
-        left: 80%;
+        display: flex;
+        left: 75%;
         top: 2%;
-
     }
 
     .hamburger-button {
