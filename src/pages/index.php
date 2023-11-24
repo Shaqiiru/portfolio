@@ -9,7 +9,7 @@
 <body>
 <div>
     <nav class="nav1">
-        <a href="index.html">Home</a>
+        <a href="index.php">Home</a>
         <a href="contact.php">Contact</a>
         <a href="projects.php">Projects</a>
     </nav>
@@ -21,7 +21,7 @@
     </div> 
 <div class="popup">
     <nav class='nav2'>
-        <a class="Home" href="index.html">Home</a>
+        <a class="Home" href="index.php">Home</a>
         <a class="Projects" href="projects.php">Projects</a>
         <a class="Contact" href="contact.php">Contact</a>
     </nav>
