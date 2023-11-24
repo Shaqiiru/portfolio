@@ -1,15 +1,14 @@
-<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Portfolio</title>
+    <title>Contact</title>
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="../recources/css/style2.css">
+    <link rel="stylesheet" type="text/css" href="../recources/css/stylecontact.css">
 </head>
 <body>
 <div>
     <nav class="nav1">
-        <a href="index.php">Home</a>
+        <a href="../index.html">Home</a>
         <a href="contact.php">Contact</a>
         <a href="projects.php">Projects</a>
     </nav>
@@ -21,7 +20,7 @@
     </div> 
 <div class="popup">
     <nav class='nav2'>
-        <a class="Home" href="index.php">Home</a>
+        <a class="Home" href="../index.html">Home</a>
         <a class="Projects" href="projects.php">Projects</a>
         <a class="Contact" href="contact.php">Contact</a>
     </nav>
@@ -29,19 +28,21 @@
         <button class='closemenub'>X</button> 
     </div>
 </div>
-<div class="kopje">
-    <h1>Welkom in mijn digitale wereld: Software Developer en Creatieve Visionair</h1>
+<h1>Contact</h1>
+<div class="formcontainer">
+    <div class="formf">
+        <form>
+            <input type="text" id="name" name="name" placeholder="Name..." required>
+            
+            <input type="email" id="email" name="email" placeholder="E-mail..." required>
+            
+            <textarea id="message" name="message" placeholder="Message..." required></textarea>
+        </form>
+    </div>
+    <div class="formb">
+        <button type="submit">Submit</button>
+    </div>
 </div>
-<div class=text1>
-    <p>Mijn passie voor het bouwen van digitale oplossingen wordt aangevuld door een veelzijdige geest en een scala aan interesses</p>
-</div>
-<div class=text2>
-    <p>Codeerwiz met een skateboard, dansmoves, tekeningen en Wing Tsun skills</p>
-</div>
-<div class=text3>
-    <p>Technologische finesse ontmoet creatieve kracht in al mijn projecten; ik omarm zowel de macht van code als de doorzettingskracht van kunst en sport.</p>
-</div>
-
 </body>
 </html>
 <script>
