@@ -9,7 +9,7 @@
     <p>"In the digital universe, I've mastered a spectrum of languages and tools—HTML, CSS, PHP, Flutter, Figma, Unity, and WordPress. Each represents a chapter in my story, where technology meets creativity in a boundless journey of innovation."</p>
     <div>
         <nav class="nav1">
-            <a href="index.php">Home</a>
+            <a href="index.html">Home</a>
             <a href="contact.php">Contact</a>
             <a href="projects.php">Projects</a>
         </nav>
@@ -21,7 +21,7 @@
     </div> 
     <div class="popup">
         <nav class='nav2'>
-            <a class="Home" href="index.php">Home</a>
+            <a class="Home" href="index.html">Home</a>
             <a class="Projects" href="projects.php">Projects</a>
             <a class="Contact" href="contact.php">Contact</a>
         </nav>
