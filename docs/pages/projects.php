@@ -1,48 +1,34 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Contact</title>
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="../recources/css/stylecontact.css">
+    <link rel="stylesheet" type="text/css" href="../recources/css/styleproject.css">
 </head>
 <body>
-<div>
-    <nav class="nav1">
-        <a href="index.php">Home</a>
-        <a href="contact.php">Contact</a>
-        <a href="projects.php">Projects</a>
-    </nav>
-</div>
+    <h1>Skills</h1>
+    <p>"In the digital universe, I've mastered a spectrum of languages and tools—HTML, CSS, PHP, Flutter, Figma, Unity, and WordPress. Each represents a chapter in my story, where technology meets creativity in a boundless journey of innovation."</p>
+    <div>
+        <nav class="nav1">
+            <a href="../index.html">Home</a>
+            <a href="contact.php">Contact</a>
+            <a href="projects.php">Projects</a>
+        </nav>
+    </div>
     <div class="hidehamburg">
         <div class="menu-toggle">
             <button class='hamburger-button'>&#9776;</button>
         </div> 
     </div> 
-<div class="popup">
-    <nav class='nav2'>
-        <a class="Home" href="index.php">Home</a>
-        <a class="Projects" href="projects.php">Projects</a>
-        <a class="Contact" href="contact.php">Contact</a>
-    </nav>
-    <div class="hidex">
-        <button class='closemenub'>X</button> 
+    <div class="popup">
+        <nav class='nav2'>
+            <a class="Home" href="../index.html">Home</a>
+            <a class="Projects" href="projects.php">Projects</a>
+            <a class="Contact" href="contact.php">Contact</a>
+        </nav>
+        <div class="hidex">
+            <button class='closemenub'>X</button> 
+        </div>
     </div>
-</div>
-<h1>Contact</h1>
-<div class="formcontainer">
-    <div class="formf">
-        <form>
-            <input type="text" id="name" name="name" placeholder="Name..." required>
-            
-            <input type="email" id="email" name="email" placeholder="E-mail..." required>
-            
-            <textarea id="message" name="message" placeholder="Message..." required></textarea>
-        </form>
-    </div>
-    <div class="formb">
-        <button type="submit">Submit</button>
-    </div>
-</div>
 </body>
 </html>
 <script>
