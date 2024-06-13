@@ -129,6 +129,52 @@ p {
     font-size: 24px;
 }
 
+.game-button-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 5%;
+    width: 300px;
+    top: 30%;
+    left: 20%;
+}
+
+.game-button-container td {
+    position: relative;
+    height: 50px;
+    width: 50px;
+}
+
+.game-button-container button {
+    height: 45px;
+    width: 45;
+    border-radius: 8px;
+    
+}
+
+.brickbreaker {
+    background-image: url("../images/brickbreakericon.png");
+    background-size: contain;
+}
+
+.empygame {
+    background-image: url("../images/defaulticon.png");
+    background-size: contain;
+}
+
+.emptygame {
+    background-image: url("../images/defaulticon.png");
+    background-size: contain;
+}
+
+.emptygame {
+    background-image: url("../images/defaulticon.png");
+    background-size: contain;
+}
+
+
+
+
 @media only screen and (min-width: 600px) {
 
     body {
@@ -167,6 +213,16 @@ p {
     
     .hidehamburg {
         display: none;
+    }
+
+    .game-button-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 5%;
+        width: 300px;
+        top: 40%;
+        left: 40%;
     }
 
 }

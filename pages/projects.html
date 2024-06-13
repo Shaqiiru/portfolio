@@ -3,6 +3,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="../recources/css/styleproject.css">
+    <script>
+        // Function to open a game in a new window
+        function openGame(url) {
+            window.open(url, '_blank', 'width=310,height=610');
+        }
+    </script>
 </head>
 <body>
     <h1>Skills</h1>
@@ -28,6 +34,26 @@
         <div class="hidex">
             <button class='closemenub'>X</button> 
         </div>
+    </div>
+    <div class="game-button-container">
+        <table>
+            <tr>
+                <td>
+                    <button class="brickbreaker" onclick="openGame('../brickbreaker/index.html')"></button>
+                </td>
+                <td>
+                    <button class="emptygame" onclick="openGame('')"></button>
+                </td>
+                <td>
+                    <button class="emptygame" onclick="openGame('')"></button>
+                </td>
+                <td>
+                    <button class="emptygame" onclick="openGame('')"></button>
+                </td>
+            </tr>
+        </table>
+        <!-- <h1>Play Brick Breaker</h1>
+        <iframe src="../brickbreaker/index.html" width="300px%" height="600px" frameborder="2px"></iframe> -->
     </div>
 </body>
 </html>
