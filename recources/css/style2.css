@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    color: #AFEDB7;
+    overflow: hidden;
+}
+body {
+    background-image: url("../images/425_852.png");
+    background-repeat: no-repeat;
+    background-position: content;
+    background-color: #000;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.kopje {
+    width: 100vw;
+    height: 100px;
+    text-align: left;
+    margin-top: 75px;
+    margin-left: 10%;
+    font-size: 12px;
+}
+
+.text1 {
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    top: 30%;
+    left: 10%;
+    font-size: 12px;
+}
+
+.text2 {
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    top: 50%;
+    left: 60%;
+    font-size: 12px;
+}
+
+.text3 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    top: 75%;
+    left: 10%;
+    font-size: 12px;
+}
+
+.nav1 {
+    display: none;
+}
+.hidehamburg {
+    visibility: visible;
+}
+
+.hamburger-button {
+    position: absolute;
+    display: block;
+    background: none;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    left: 85%;
+    top: -20px
+}
+
+.popup {
+    display: none;
+    background: #6a6a6a;
+    position: fixed;
+    height: 100vh;
+    width: 50%;
+    top: 0;
+    right: 0;
+    z-index: 99;
+}
+
+.popup.active {
+    display: flex;
+    background: #19301cad;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    border-bottom-left-radius: 8px;
+}
+
+.nav2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+
+}
+
+.nav2.active {
+    display: inline-grid;
+    position: fixed;
+    color: aliceblue;
+    background: rgba(25, 48, 28, 0.641);
+    z-index: 99;
+    width: 50%;
+    text-align: center;
+    margin-top: 20%;
+    /* Add any other styling you want for the visible menu */
+}
+
+.nav2.active a {
+    text-align: center;
+    width: 100px;
+    margin-bottom: 20px;
+    justify-content: center;
+    font-size: x-large; /* Adjust the font size as needed */
+}
+
+.closemenub {
+    position: absolute;
+    top: -20px;
+    right: 10px;
+    font-size: x-large;
+    cursor: pointer;
+    color: white;
+    background: none;
+    border: none;
+    padding: 25px;
+    left: 80%;
+}
+
+.hidex {
+    display: visible;
+}
+
+a {
+    margin-right: 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4f5f51;
+}
+
+
+@media only screen and (min-width: 425px) {
+
+    body {
+        background-image: url("../images/425_852.png");
+    }
+
+    .text {
+        font-size: 13px; 
+    }
+
+    .text2 {
+        font-size: 13px;
+    }
+
+    .text3 {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 768px) { 
+
+    body {
+        background-image: url("../images/768_1024.png");
+    }
+
+    .koptje {
+    
+    }
+
+    .text1 {
+        width: 300px;
+        font-size: 15px;
+    }
+
+    .text2 {
+        width: 300px;
+        font-size: 15px;
+    }
+
+    .text3 {
+        width: 300px;
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+    body {
+        background-image: url("../images/1024_1366.png");
+    }
+
+    .koptje {
+        font-size: 19px;
+    }
+
+    .text1 {
+        width: 350px;
+        font-size: 18px;
+    }
+
+    .text2 {
+        width: 350px;
+        font-size: 18px;
+    }
+
+    .text3 {
+        width: 350px;
+        font-size: 18px;
+        top: 80%;
+    }
+
+}
+
+@media only screen and (min-width: 1440px) {
+
+    body {
+        background-image: url("../images/1680_768bg.png");
+    }
+
+    .koptje {
+        font-size: 19px;
+        text-align: left;
+    }
+
+    .text1 {
+        width: 350px;
+        font-size: 18px;
+        top: 225px;
+        left: 900px;
+    }
+
+    .text2 {
+        width: 350px;
+        font-size: 18px;
+        left: 425px;
+    }
+
+    .text3 {
+        width: 350px;
+        font-size: 18px;
+        top: 475px;
+        left: 900px;
+    }
+
+    .nav1 {
+        position: absolute;
+        display: flex;
+        left: 75%;
+        top: 2%;
+    }
+
+    .hamburger-button {
+        display: none;
+    }
+
+}
