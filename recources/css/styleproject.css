@@ -181,6 +181,27 @@ tr {
     flex-direction: row;
 }
 
+.linkContainer {
+    position: relative;
+    height: auto;
+    width: 20%;
+    border: 2px solid #afedb7a1;
+    border-radius: 40px;
+    background-color: #1b331d84;
+    padding: 50px;
+    left: 2%;
+    top: 15%;
+}
+
+.linkContainer h6 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.linkContainer li {
+    font-size: 12px;
+}
+
 
 
 
