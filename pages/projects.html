@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <html>
 <head>
     <meta charset="UTF-8">
@@ -84,3 +85,101 @@
     });
 };
 </script>
+=======
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../recources/css/styleproject.css">
+    <script>
+        // Function to open a game in a new window
+        function openGame(url) {
+            window.open(url, '_blank', 'width=310,height=610');
+        }
+    </script>
+</head>
+<body>
+    <h1>Skills</h1>
+    <p>"In the digital universe, I've mastered a spectrum of languages and tools—HTML, CSS, PHP, Flutter, Figma, Unity, and WordPress. Each represents a chapter in my story, where technology meets creativity in a boundless journey of innovation."</p>
+    <div>
+        <nav class="nav1">
+            <a href="../index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="projects.html">Projects</a>
+        </nav>
+    </div>
+    <div class="hidehamburg">
+        <div class="menu-toggle">
+            <button class='hamburger-button'>&#9776;</button>
+        </div> 
+    </div> 
+    <div class="popup">
+        <nav class='nav2'>
+            <a class="Home" href="../index.html">Home</a>
+            <a class="Projects" href="projects.html">Projects</a>
+            <a class="Contact" href="contact.html">Contact</a>
+        </nav>
+        <div class="hidex">
+            <button class='closemenub'>X</button> 
+        </div>
+    </div>
+    <div class="game-button-container">
+        <table>
+            <tr>
+                <td>
+                    <h6>Brick Breaker</h6>
+                    <button class="brickbreaker" onclick="openGame('../brickbreaker/index.html')"></button>
+                </td>
+                <td>
+                    <h6>bubble Trouble</h6>
+                    <button class="bubbletrouble" onclick="openGame('../bubbletrouble/index.html')"></button>
+                </td>
+                <td>
+                    <h6>Empty</h6>
+                    <button class="emptygame" onclick="openGame('')"></button>
+                </td>
+                <td>
+                    <h6>Empty</h6>
+                    <button class="emptygame" onclick="openGame('')"></button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="linkContainer">
+        <h6>Click on the links below to visit different websites:</h6>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/shaquille-mercera-980334258/" target="_blank">Linkedin</a></li>
+            <li><a href="https://github.com/Shaqiiru" target="_blank">GitHub</a></li>
+            <li><a href="https://www.md-automobielen.nl" target="_blank">Orienterende stage</a></li>
+        </ul>
+    </div>
+</body>
+</html>
+<script>
+    // JavaScript to toggle the navigation menu
+    window.onload =  function () {
+        const button = document.querySelector('.hamburger-button');
+    const nav = document.querySelector('.nav');
+    const popup = document.querySelector('.popup');
+    const closeBtn = document.querySelector('.closemenub');
+
+    button.addEventListener('click', function () {
+        popup.classList.add('active');
+        nav.classList.add('active');
+    });
+
+    closeBtn.addEventListener('click', function () {
+        popup.classList.remove('active');
+        nav.classList.remove('active');
+    });
+
+    // Close the menu when clicking outside
+    document.addEventListener('click', function (event) {
+        if (nav.classList.contains('active') && !popup.contains(event.target) && event.target !== button) {
+            popup.classList.remove('active');
+            nav.classList.remove('active');
+        }
+    });
+};
+</script>
+>>>>>>> Stashed changes
