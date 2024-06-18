@@ -132,32 +132,41 @@ p {
 .game-button-container {
     position: relative;
     display: flex;
-    flex-direction: column;
-    height: 5%;
-    width: 300px;
-    top: 30%;
-    left: 20%;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+    top: 25%;
+    left: 25%;
 }
 
 .game-button-container td {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: relative;
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 60px;
 }
 
 .game-button-container button {
     height: 45px;
     width: 45;
     border-radius: 8px;
+    margin-top: 5px;
     
 }
 
 .brickbreaker {
     background-image: url("../images/brickbreakericon.png");
+    background-size: cover;
+}
+
+.bubbletrouble {
+    background-image: url("../images/bubbletroubleicon.png");
     background-size: contain;
 }
 
-.empygame {
+.emptygame {
     background-image: url("../images/defaulticon.png");
     background-size: contain;
 }
@@ -167,9 +176,9 @@ p {
     background-size: contain;
 }
 
-.emptygame {
-    background-image: url("../images/defaulticon.png");
-    background-size: contain;
+tr {
+    display: flex;
+    flex-direction: row;
 }
 
 
@@ -218,11 +227,11 @@ p {
     .game-button-container {
         position: relative;
         display: flex;
-        flex-direction: column;
-        height: 5%;
-        width: 300px;
-        top: 40%;
-        left: 40%;
+        flex-direction: row;
+        height: auto;
+        width: auto;
+        top: 35%;
+        left: 43%;
     }
 
 }
